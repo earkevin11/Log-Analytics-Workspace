@@ -13,3 +13,7 @@
 
 
 # Resources do not need to be in the same region as LAW. Note* data transfers not in the same region will be charged
+
+
+
+# LAW - Connecting the Virtual Machines
