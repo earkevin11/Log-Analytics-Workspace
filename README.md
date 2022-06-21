@@ -21,15 +21,15 @@
 - An agent will be installed and it will send data to the LAW.
 - On-Prem VM can also be sent to a LAW
 
-
 # How to connect on-prem machines to LAW
 - Download the Windows Agent on the LAW
 - Right click on RDP file > edit >  Local Resources > More > Check Local Disk > Copy the agent onto the VM 
 - Set up the monitoring agent < Connect the Agent to Azure Log Analytics > Enter the Workspace ID and Primary Key form the LAW
 - The agent will be installed and the VM will be connected to the LAW.
 
-
-
 # Log Analytics Queries
 - KQL stands for Kusto Query Language
-- KQL is the language that the Log Analytics Workspace understands.
+- KQL is the language that the Log Analytics Workspace understands
+- System event logs are stored in the Event table
+
+# Use Case: Connect two VM's and make 5 queries through the LAW
