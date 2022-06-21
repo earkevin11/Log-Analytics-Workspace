@@ -32,4 +32,4 @@
 
 # Log Analytics Queries
 - KQL stands for Kusto Query Language
-- KQL is the language that 
+- KQL is the language that the Log Analytics Workspace understands.
