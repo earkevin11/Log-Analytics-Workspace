@@ -17,3 +17,14 @@
 
 
 # LAW - Connecting the Virtual Machines
+- Virtual Machines > Select the VMs > Connect 
+- An agent will be installed and it will send data to the LAW.
+- On-Prem VM can also be sent to a LAW
+
+
+# How to connect on-prem machines to LAW
+- Download the Windows Agent on the LAW
+- Copy the agent onto the load on the VM
+- Right click on RDP file > edit >  Local Resources > More > Check Local Disk > Copy the agent onto the VM 
+- Set up the monitoring agent < Connect the Agent to Azure Log Analytics > Enter the Workspace ID and Primary Key form the LAW
+- The agent will be installed and the VM will be connected to the LAW.
