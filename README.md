@@ -33,3 +33,19 @@
 - System event logs are stored in the Event table
 
 # Use Case: Connect two VM's and make 5 queries through the LAW
+
+
+
+
+# LAW - How to send custom logs to LAW
+- Access.log file wil tell admins information about all of the IP addresses/clients that are accessing the homepage of NGINX servers that installed on the LinuxVM
+- Says admins want to stream this information to the LAW
+- Copy the access.log onto your directory and go to LAW
+- Custom Logs> Add custom log> select the access.log file from your local machine
+- Add the collection path which is the path of where the access.log file is stored
+- Ensure that the virtual machine is connected to the log analytics workspace (LAW) - It will install a LAW agent onto the vm.
+- After connecting, ensure you still access the homepage so the log can record the data.
+
+
+# LAW - Alerts
+- Alerts can be created based on the data collected on the log analytics workspace.
