@@ -46,6 +46,8 @@
 - Ensure that the virtual machine is connected to the log analytics workspace (LAW) - It will install a LAW agent onto the vm.
 - After connecting, ensure you still access the homepage so the log can record the data.
 
+# LAW - Use Azure Resource Templates (ARM) to connect a VM to an LAW (169)
+- 
 
 # LAW - Alerts
 - Alerts can be created based on the data collected on the log analytics workspace.
