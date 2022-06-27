@@ -35,8 +35,6 @@
 # Use Case: Connect two VM's and make 5 queries through the LAW
 
 
-
-
 # LAW - How to send custom logs to LAW
 - Access.log file wil tell admins information about all of the IP addresses/clients that are accessing the homepage of NGINX servers that installed on the LinuxVM
 - Says admins want to stream this information to the LAW
